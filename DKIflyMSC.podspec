@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
   s.requires_arc = false
   s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephony','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
   s.libraries = 'z','c++','icucore'
+  s.source_files = 'DKIflyMSC/Classes/**/*.h'
   s.prepare_command     = <<-EOF
   mkdir DKIflyMSC/Classes/iflyMSC.framework/Modules
   touch DKIflyMSC/Classes/iflyMSC.framework/Modules/module.modulemap
