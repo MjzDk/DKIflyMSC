@@ -1,0 +1,22 @@
+{
+  "name": "DKIflyMSC",
+  "version": "0.1.0",
+  "summary": "A short description of DKIflyMSC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MjzDK/DKIflyMSC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MjzDK": "15929996560@163.com"
+  },
+  "source": {
+    "git": "https://github.com/MjzDK/DKIflyMSC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DKIflyMSC/Classes/**/*"
+}

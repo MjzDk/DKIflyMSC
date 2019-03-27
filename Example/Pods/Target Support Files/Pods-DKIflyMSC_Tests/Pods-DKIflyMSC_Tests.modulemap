@@ -1,0 +1,6 @@
+framework module Pods_DKIflyMSC_Tests {
+  umbrella header "Pods-DKIflyMSC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
