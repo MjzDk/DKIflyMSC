@@ -29,9 +29,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'DKIflyMSC/Classes/**/*.h'
   s.vendored_frameworks = ['DKIflyMSC/Classes/iflyMSC.framework']
+  s.requires_arc = false
   s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephony','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
   s.libraries = 'z','c++','icucore'
   s.prepare_command     = <<-EOF
