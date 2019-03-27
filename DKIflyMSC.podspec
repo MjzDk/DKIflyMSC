@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DKIflyMSC'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = '讯飞组件'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.xcconfig            = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/iflyMSCKit/**\"" }
   s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephony','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
   s.libraries = 'z','c++','icucore'
-  s.source_files = 'Source/**/*.h'
+  #s.source_files = 'Source/**/*.h'
   s.requires_arc = false
   s.prepare_command     = <<-EOF
   mkdir Source/iflyMSC.framework/Modules
