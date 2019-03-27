@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DKIflyMSC'
-  s.version          = '1.0.2'
+  s.version          = '1.0.7'
   s.summary          = '讯飞组件'
 
 # This description is used to generate tags and improve search results.
@@ -34,6 +34,44 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = ['DKIflyMSC/Classes/iflyMSC.framework']
   s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephony','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
   s.libraries = 'z','c++','icucore'
+  s.prepare_command     = <<-EOF
+  mkdir DKIflyMSC/Classes/iflyMSC.framework/Modules
+  touch DKIflyMSC/Classes/iflyMSC.framework/Modules/module.modulemap
+  cat <<-EOF > DKIflyMSC/Classes/iflyMSC.framework/Modules/module.modulemap
+  framework module iflyMSC {
+      header "IFlyMSC.h"
+      header "IFlyAudioSession.h"
+      header "IFlyContact.h"
+      header "IFlyDataUploader.h"
+      header "IFlyDebugLog.h"
+      header "IFlyISVDelegate.h"
+      header "IFlyISVRecognizer.h"
+      header "IFlyRecognizerView.h"
+      header "IFlyRecognizerViewDelegate.h"
+      header "IFlyResourceUtil.h"
+      header "IFlySetting.h"
+      header "IFlySpeechConstant.h"
+      header "IFlySpeechError.h"
+      header "IFlySpeechEvaluator.h"
+      header "IFlySpeechEvaluatorDelegate.h"
+      header "IFlySpeechEvent.h"
+      header "IFlySpeechRecognizer.h"
+      header "IFlySpeechRecognizerDelegate.h"
+      header "IFlySpeechSynthesizer.h"
+      header "IFlySpeechSynthesizerDelegate.h"
+      header "IFlySpeechUnderstander.h"
+      header "IFlySpeechUtility.h"
+      header "IFlyTextUnderstander.h"
+      header "IFlyUserWords.h"
+      header "IFlyPcmRecorder.h"
+      header "IFlyVoiceWakeuper.h"
+      header "IFlyVoiceWakeuperDelegate.h"
+      export *
+      link "z"
+      link "c++"
+  }
+  \EOF
+  EOF
   # s.resource_bundles = {
   #   'DKIflyMSC' => ['DKIflyMSC/Assets/*.png']
   # }
