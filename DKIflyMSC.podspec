@@ -1,40 +1,28 @@
-#
-# Be sure to run `pod lib lint DKIflyMSC.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'DKIflyMSC'
-  s.version          = '1.1.4'
-  s.summary          = '讯飞组件'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.name         = "iflyMSCKit"
+  s.version      = "1.1.5"
+  s.summary      = "讯飞语音听写"
+  s.description  = <<-DESC
+                    科大讯飞 语音听写 SDK
+                   DESC
 
-  s.description      = <<-DESC
-                        讯飞语音组件
-                       DESC
-
-  s.homepage         = 'https://github.com/MjzDk/DKIflyMSC.git'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage     = "https://github.com/MjzDk/DKIflyMSC.git"
+  s.license      = "MIT"
   s.author           = { 'MjzDK' => '15929996560@163.com' }
-  s.source           = { :git => 'https://github.com/MjzDk/DKIflyMSC.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.platform     = :ios, "9.0"
 
-  s.ios.deployment_target = '9.0'
+  s.source       = { :git => "https://github.com/MjzDk/DKIflyMSC.git", :tag => "#{s.version}" }
+
   s.vendored_frameworks = 'Source/iflyMSC.framework'
+
   s.xcconfig            = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/iflyMSCKit/**\"" }
+
   s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephony','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
   s.libraries = 'z','c++','icucore'
-  #s.source_files = 'Source/**/*.h'
+
   s.requires_arc = false
+
   s.prepare_command     = <<-EOF
   mkdir Source/iflyMSC.framework/Modules
   touch Source/iflyMSC.framework/Modules/module.modulemap
@@ -67,17 +55,12 @@ Pod::Spec.new do |s|
       header "IFlyPcmRecorder.h"
       header "IFlyVoiceWakeuper.h"
       header "IFlyVoiceWakeuperDelegate.h"
+
       export *
+
       link "z"
       link "c++"
   }
   \EOF
   EOF
-  # s.resource_bundles = {
-  #   'DKIflyMSC' => ['DKIflyMSC/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
