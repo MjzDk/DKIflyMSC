@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  # s.source_files = 'DKIflyMSC/Classes/**/*'
+  s.source_files = 'DKIflyMSC/Classes/**/*.h'
   s.vendored_frameworks = ['DKIflyMSC/Classes/iflyMSC.framework']
   s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephony','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
   s.libraries = 'z','c++','icucore'
