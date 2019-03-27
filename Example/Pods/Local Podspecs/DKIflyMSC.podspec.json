@@ -16,7 +16,27 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "DKIflyMSC/Classes/**/*"
+  "vendored_frameworks": [
+    "DKIflyMSC/Classes/iflyMSC.framework"
+  ],
+  "frameworks": [
+    "AVFoundation",
+    "SystemConfiguration",
+    "Foundation",
+    "CoreTelephony",
+    "AudioToolbox",
+    "UIKit",
+    "CoreLocation",
+    "Contacts",
+    "AddressBook",
+    "QuartzCore",
+    "CoreGraphics"
+  ],
+  "libraries": [
+    "z",
+    "c++",
+    "icucore"
+  ]
 }

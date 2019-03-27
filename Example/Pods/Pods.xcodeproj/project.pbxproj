@@ -7,45 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006279BB1FFE021D7D9F9F679A26ECC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		026A4B2A6D7CB226CD54934519B75F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		5169B6C63D6161C209FE86EA1D2D32F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		4F5732FC577F4E5586F7AF7D978566B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		54DE9A4E53833A4F1FE520A8BC49CDC7 /* Pods-DKIflyMSC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF70E173C7C64B6B22853CC0F1E657E /* Pods-DKIflyMSC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3FEF7434124E8A12667EC7F7B422246 /* DKIflyMSC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA14FC5FEEED01D0A482F794EE297D5 /* DKIflyMSC-dummy.m */; };
-		AC3AD2113ABDA98BA223F28AFD7688CA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CC15D167E80BDE0D37ABA5C2B1F790AB /* ReplaceMe.m */; };
-		B1D7A876D81CB25F7E0FE85833A922CC /* Pods-DKIflyMSC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F7B71B23B8B5974452BE89AE20A281 /* Pods-DKIflyMSC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B325135F5E93F9BC23FE24047389EF10 /* DKIflyMSC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2607D1CB17C00C2C702E9D632FA7120 /* DKIflyMSC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80EED9345D3FD8C8B4566B008D29B561 /* Pods-DKIflyMSC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F9A9EA5F7BB6E6CA98BFB9E62E3A4 /* Pods-DKIflyMSC_Example-dummy.m */; };
+		B66C5021ABCE57B3BDCCCF111A059977 /* Pods-DKIflyMSC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F7B71B23B8B5974452BE89AE20A281 /* Pods-DKIflyMSC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA53EC3862EB0C64ACD228E695EF34D0 /* Pods-DKIflyMSC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8585F4CD883B6936C7785801850A97E7 /* Pods-DKIflyMSC_Tests-dummy.m */; };
-		FCC01822A78D02DD66F75223F2460080 /* Pods-DKIflyMSC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F9A9EA5F7BB6E6CA98BFB9E62E3A4 /* Pods-DKIflyMSC_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B636F293FF15B70FE1B731D9D90871A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C36E97A61BEC58A2C734B4813BDA55EA;
-			remoteInfo = DKIflyMSC;
-		};
 		7BB507C6EEBAED37BDC1890CC10373EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD41E99CA7B69CA2F4DE9E0A9F94B5EB;
+			remoteGlobalIDString = 4A69C9589E7456DBCAE1AF00D957EC09;
 			remoteInfo = "Pods-DKIflyMSC_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		295BCF5F024A86DA8027F06B28BF4F0C /* DKIflyMSC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKIflyMSC-prefix.pch"; sourceTree = "<group>"; };
+		250CEED27DE8FF68075F881EC402460E /* DKIflyMSC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DKIflyMSC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		299A83AA0FF15BFCAE59D7E7677583B3 /* Pods-DKIflyMSC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKIflyMSC_Example-resources.sh"; sourceTree = "<group>"; };
-		2A2A1B5BC681A1432C67BFE30453F344 /* DKIflyMSC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKIflyMSC.xcconfig; sourceTree = "<group>"; };
-		2AC774213CC9D441BBB5836B81108A03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DAFE4CBE41DB0535022059C0E42A01C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3A9257602E068990F525E7551C816213 /* Pods-DKIflyMSC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKIflyMSC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3D852E58532F6A82F3C0B5DBFB363D2C /* Pods-DKIflyMSC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKIflyMSC_Example-frameworks.sh"; sourceTree = "<group>"; };
+		413BD0D7512AA050CCAE6CA203B3517F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4265A73E330EF2A42D72994870347E19 /* Pods_DKIflyMSC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DKIflyMSC_Example.framework; path = "Pods-DKIflyMSC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52179A9BC1A264A7D8205EF843EB8FE1 /* Pods-DKIflyMSC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKIflyMSC_Example.modulemap"; sourceTree = "<group>"; };
-		542702C68E5CE3180D574C124E4DB632 /* DKIflyMSC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKIflyMSC.modulemap; sourceTree = "<group>"; };
 		58B48DC69006C73FD52AE1E6B5FEB38D /* Pods-DKIflyMSC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKIflyMSC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6824632CA35F1C2DA8E9603C65C92456 /* Pods-DKIflyMSC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKIflyMSC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		683C0612B785E1E7B70E29077ACAD140 /* Pods-DKIflyMSC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKIflyMSC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -53,36 +40,23 @@
 		6EB611D55860D547680FA188227096F1 /* Pods-DKIflyMSC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKIflyMSC_Tests-resources.sh"; sourceTree = "<group>"; };
 		7F6A78967E1525A2D63A661AB15465AF /* Pods-DKIflyMSC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKIflyMSC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8042C983BC51F10D93F3AD3C70413434 /* Pods-DKIflyMSC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKIflyMSC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		83941B23916FD7A2645BEC62B19247EA /* DKIflyMSC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DKIflyMSC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8432082005AA1EB07F4ABD7E8C7797E6 /* Pods-DKIflyMSC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKIflyMSC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		85353B872CAD13B31307D34AC9AE515F /* Pods_DKIflyMSC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DKIflyMSC_Tests.framework; path = "Pods-DKIflyMSC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8585F4CD883B6936C7785801850A97E7 /* Pods-DKIflyMSC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKIflyMSC_Tests-dummy.m"; sourceTree = "<group>"; };
-		89101E0C845DDFD03DDCFA98F7519833 /* Pods_DKIflyMSC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DKIflyMSC_Example.framework; path = "Pods-DKIflyMSC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CBEA02F83D4B840D15BE185F84EC757 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2607D1CB17C00C2C702E9D632FA7120 /* DKIflyMSC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKIflyMSC-umbrella.h"; sourceTree = "<group>"; };
-		AFA14FC5FEEED01D0A482F794EE297D5 /* DKIflyMSC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKIflyMSC-dummy.m"; sourceTree = "<group>"; };
-		CC15D167E80BDE0D37ABA5C2B1F790AB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DKIflyMSC/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		ACBF888DC54EA2EEF585D60EABEAC7F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B31C9861D1992C1DFF46DE70CB66A1DD /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = DKIflyMSC/Classes/iflyMSC.framework; sourceTree = "<group>"; };
 		D23FF20FB46697D9E49ECA2C0DB70E41 /* Pods-DKIflyMSC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKIflyMSC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8ED44BC13B5F5BC3DC0DFC1EC3249BE /* Pods_DKIflyMSC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DKIflyMSC_Tests.framework; path = "Pods-DKIflyMSC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54770D03974026D6EB46C14CA70004F /* Pods-DKIflyMSC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKIflyMSC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E5F7B71B23B8B5974452BE89AE20A281 /* Pods-DKIflyMSC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKIflyMSC_Example-umbrella.h"; sourceTree = "<group>"; };
 		E666677429A9CE8A254332643EFED467 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F09A9240AF5A825925F791F2F9BFF833 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F44F9A9EA5F7BB6E6CA98BFB9E62E3A4 /* Pods-DKIflyMSC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKIflyMSC_Example-dummy.m"; sourceTree = "<group>"; };
-		F76CB1BB790517A2F0C55186A123809B /* DKIflyMSC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKIflyMSC.framework; path = DKIflyMSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF70E173C7C64B6B22853CC0F1E657E /* Pods-DKIflyMSC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKIflyMSC_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18E2702251D0BC54FACECD183542B999 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5169B6C63D6161C209FE86EA1D2D32F8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7EF581D5B10F34EFD16B79F36A9C6880 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,50 +65,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE94415E4D455CD33955F93F307BC081 /* Frameworks */ = {
+		CA0B7566A55179597323149844707EC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006279BB1FFE021D7D9F9F679A26ECC2 /* Foundation.framework in Frameworks */,
+				4F5732FC577F4E5586F7AF7D978566B5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15FB03E8939F2F0656B85F48B87D7A04 /* DKIflyMSC */ = {
+		289B22B0FC603260E5144859ECF5F366 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC15D167E80BDE0D37ABA5C2B1F790AB /* ReplaceMe.m */,
-				161D2FBD4CC739F381FAB5AE10DD7C0A /* Pod */,
-				1C1C1C3F967E0157E36FD4A174FC743B /* Support Files */,
+				AEF2044D33431C72E79582E1704B9C47 /* DKIflyMSC */,
 			);
-			name = DKIflyMSC;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		161D2FBD4CC739F381FAB5AE10DD7C0A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				83941B23916FD7A2645BEC62B19247EA /* DKIflyMSC.podspec */,
-				2DAFE4CBE41DB0535022059C0E42A01C /* LICENSE */,
-				8CBEA02F83D4B840D15BE185F84EC757 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1C1C1C3F967E0157E36FD4A174FC743B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				542702C68E5CE3180D574C124E4DB632 /* DKIflyMSC.modulemap */,
-				2A2A1B5BC681A1432C67BFE30453F344 /* DKIflyMSC.xcconfig */,
-				AFA14FC5FEEED01D0A482F794EE297D5 /* DKIflyMSC-dummy.m */,
-				295BCF5F024A86DA8027F06B28BF4F0C /* DKIflyMSC-prefix.pch */,
-				A2607D1CB17C00C2C702E9D632FA7120 /* DKIflyMSC-umbrella.h */,
-				2AC774213CC9D441BBB5836B81108A03 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DKIflyMSC";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -167,9 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8D9C2F3231626848C36A2BC2220FB7C4 /* Development Pods */,
+				289B22B0FC603260E5144859ECF5F366 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E761496033C7AC14F86F8342607A6CA9 /* Products */,
+				A4B52B58A8A13F96C828374EF1582544 /* Products */,
 				7EF9CC768F77521F473D68F709390A66 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -183,12 +130,41 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8D9C2F3231626848C36A2BC2220FB7C4 /* Development Pods */ = {
+		A49509422ECCB8A53A12EFE48C44E61C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				15FB03E8939F2F0656B85F48B87D7A04 /* DKIflyMSC */,
+				B31C9861D1992C1DFF46DE70CB66A1DD /* iflyMSC.framework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4B52B58A8A13F96C828374EF1582544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4265A73E330EF2A42D72994870347E19 /* Pods_DKIflyMSC_Example.framework */,
+				85353B872CAD13B31307D34AC9AE515F /* Pods_DKIflyMSC_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF2044D33431C72E79582E1704B9C47 /* DKIflyMSC */ = {
+			isa = PBXGroup;
+			children = (
+				A49509422ECCB8A53A12EFE48C44E61C /* Frameworks */,
+				B8973E44ED579EF9EB77C2245B738B4B /* Pod */,
+			);
+			name = DKIflyMSC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B8973E44ED579EF9EB77C2245B738B4B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				250CEED27DE8FF68075F881EC402460E /* DKIflyMSC.podspec */,
+				ACBF888DC54EA2EEF585D60EABEAC7F6 /* LICENSE */,
+				413BD0D7512AA050CCAE6CA203B3517F /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -217,27 +193,9 @@
 			path = "Target Support Files/Pods-DKIflyMSC_Example";
 			sourceTree = "<group>";
 		};
-		E761496033C7AC14F86F8342607A6CA9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F76CB1BB790517A2F0C55186A123809B /* DKIflyMSC.framework */,
-				89101E0C845DDFD03DDCFA98F7519833 /* Pods_DKIflyMSC_Example.framework */,
-				D8ED44BC13B5F5BC3DC0DFC1EC3249BE /* Pods_DKIflyMSC_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		38BC59B7AF355CA1BDFD1D8C95379DE0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B325135F5E93F9BC23FE24047389EF10 /* DKIflyMSC-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		894DCE3CC14426F7C022C1615EFAB474 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,11 +204,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4EB223DAF44BB78B7C7DE3A739388F2 /* Headers */ = {
+		ACFDF3ED4DA7049569844BD803CAF07D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D7A876D81CB25F7E0FE85833A922CC /* Pods-DKIflyMSC_Example-umbrella.h in Headers */,
+				B66C5021ABCE57B3BDCCCF111A059977 /* Pods-DKIflyMSC_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,44 +231,25 @@
 			);
 			name = "Pods-DKIflyMSC_Tests";
 			productName = "Pods-DKIflyMSC_Tests";
-			productReference = D8ED44BC13B5F5BC3DC0DFC1EC3249BE /* Pods_DKIflyMSC_Tests.framework */;
+			productReference = 85353B872CAD13B31307D34AC9AE515F /* Pods_DKIflyMSC_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C36E97A61BEC58A2C734B4813BDA55EA /* DKIflyMSC */ = {
+		4A69C9589E7456DBCAE1AF00D957EC09 /* Pods-DKIflyMSC_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69700A761009B02E166985DE4170CC4E /* Build configuration list for PBXNativeTarget "DKIflyMSC" */;
+			buildConfigurationList = EB52859D01CE21D71CE0F9ADCE2EF244 /* Build configuration list for PBXNativeTarget "Pods-DKIflyMSC_Example" */;
 			buildPhases = (
-				38BC59B7AF355CA1BDFD1D8C95379DE0 /* Headers */,
-				E95F24653D38CD2151672B7843EDA4E9 /* Sources */,
-				AE94415E4D455CD33955F93F307BC081 /* Frameworks */,
-				DF01A2D4743FAC70AC157C6B2C71AD1A /* Resources */,
+				ACFDF3ED4DA7049569844BD803CAF07D /* Headers */,
+				EA7FDC406A7CA665AA5E9DF205422C10 /* Sources */,
+				CA0B7566A55179597323149844707EC7 /* Frameworks */,
+				B636B647777BD913629E6EE3F3C92F7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = DKIflyMSC;
-			productName = DKIflyMSC;
-			productReference = F76CB1BB790517A2F0C55186A123809B /* DKIflyMSC.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DD41E99CA7B69CA2F4DE9E0A9F94B5EB /* Pods-DKIflyMSC_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3AC79E98B9D5AC47A7BFBFDF200DFDFC /* Build configuration list for PBXNativeTarget "Pods-DKIflyMSC_Example" */;
-			buildPhases = (
-				C4EB223DAF44BB78B7C7DE3A739388F2 /* Headers */,
-				85F76E3ADFF43AE0CDEBE530A5548C7E /* Sources */,
-				18E2702251D0BC54FACECD183542B999 /* Frameworks */,
-				1F5148C587D2591108BEF0E1BB934C49 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8B79D8B9847F110C9F620D0E1F5A9AF9 /* PBXTargetDependency */,
 			);
 			name = "Pods-DKIflyMSC_Example";
 			productName = "Pods-DKIflyMSC_Example";
-			productReference = 89101E0C845DDFD03DDCFA98F7519833 /* Pods_DKIflyMSC_Example.framework */;
+			productReference = 4265A73E330EF2A42D72994870347E19 /* Pods_DKIflyMSC_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -330,26 +269,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E761496033C7AC14F86F8342607A6CA9 /* Products */;
+			productRefGroup = A4B52B58A8A13F96C828374EF1582544 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C36E97A61BEC58A2C734B4813BDA55EA /* DKIflyMSC */,
-				DD41E99CA7B69CA2F4DE9E0A9F94B5EB /* Pods-DKIflyMSC_Example */,
+				4A69C9589E7456DBCAE1AF00D957EC09 /* Pods-DKIflyMSC_Example */,
 				19B7E06DDCE88D89D59ADDDB4D738CB0 /* Pods-DKIflyMSC_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F5148C587D2591108BEF0E1BB934C49 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF01A2D4743FAC70AC157C6B2C71AD1A /* Resources */ = {
+		B636B647777BD913629E6EE3F3C92F7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,20 +305,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85F76E3ADFF43AE0CDEBE530A5548C7E /* Sources */ = {
+		EA7FDC406A7CA665AA5E9DF205422C10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC01822A78D02DD66F75223F2460080 /* Pods-DKIflyMSC_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E95F24653D38CD2151672B7843EDA4E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3FEF7434124E8A12667EC7F7B422246 /* DKIflyMSC-dummy.m in Sources */,
-				AC3AD2113ABDA98BA223F28AFD7688CA /* ReplaceMe.m in Sources */,
+				80EED9345D3FD8C8B4566B008D29B561 /* Pods-DKIflyMSC_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,21 +319,15 @@
 		62740B970C2FEF94A9C2D0C03682225C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DKIflyMSC_Example";
-			target = DD41E99CA7B69CA2F4DE9E0A9F94B5EB /* Pods-DKIflyMSC_Example */;
+			target = 4A69C9589E7456DBCAE1AF00D957EC09 /* Pods-DKIflyMSC_Example */;
 			targetProxy = 7BB507C6EEBAED37BDC1890CC10373EF /* PBXContainerItemProxy */;
-		};
-		8B79D8B9847F110C9F620D0E1F5A9AF9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DKIflyMSC;
-			target = C36E97A61BEC58A2C734B4813BDA55EA /* DKIflyMSC */;
-			targetProxy = 2B636F293FF15B70FE1B731D9D90871A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5F17E0F7279AB1062A1953669759C5FB /* Debug */ = {
+		06657A1FC01A3C6A8F7934A36CC57930 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8432082005AA1EB07F4ABD7E8C7797E6 /* Pods-DKIflyMSC_Example.debug.xcconfig */;
+			baseConfigurationReference = 8042C983BC51F10D93F3AD3C70413434 /* Pods-DKIflyMSC_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -423,12 +339,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DKIflyMSC_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKIflyMSC_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DKIflyMSC_Example/Pods-DKIflyMSC_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DKIflyMSC_Tests/Pods-DKIflyMSC_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -442,7 +358,41 @@
 			};
 			name = Debug;
 		};
-		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+		47F1DF1B89B8DE5D31F7A3F8089CC67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6A78967E1525A2D63A661AB15465AF /* Pods-DKIflyMSC_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKIflyMSC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKIflyMSC_Tests/Pods-DKIflyMSC_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -492,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -504,7 +454,7 @@
 			};
 			name = Release;
 		};
-		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -557,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -570,39 +520,9 @@
 			};
 			name = Debug;
 		};
-		BAD9AE5CD34C45A38F82306C2966D870 /* Debug */ = {
+		BB2F4782E3E45816E37791DECD75AA01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A2A1B5BC681A1432C67BFE30453F344 /* DKIflyMSC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DKIflyMSC/DKIflyMSC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DKIflyMSC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DKIflyMSC/DKIflyMSC.modulemap";
-				PRODUCT_MODULE_NAME = DKIflyMSC;
-				PRODUCT_NAME = DKIflyMSC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D09EB7411E92A6EE86D45E940F5A9699 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F6A78967E1525A2D63A661AB15465AF /* Pods-DKIflyMSC_Tests.release.xcconfig */;
+			baseConfigurationReference = 8432082005AA1EB07F4ABD7E8C7797E6 /* Pods-DKIflyMSC_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -614,12 +534,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DKIflyMSC_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKIflyMSC_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DKIflyMSC_Tests/Pods-DKIflyMSC_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DKIflyMSC_Example/Pods-DKIflyMSC_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -628,13 +548,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		DFAA61FD317659457EA60AB3A8E57BE7 /* Release */ = {
+		BFB5BCF26EE150BD4E04CE2BF87D9C12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E54770D03974026D6EB46C14CA70004F /* Pods-DKIflyMSC_Example.release.xcconfig */;
 			buildSettings = {
@@ -650,7 +569,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DKIflyMSC_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DKIflyMSC_Example/Pods-DKIflyMSC_Example.modulemap";
@@ -668,96 +587,14 @@
 			};
 			name = Release;
 		};
-		E0BC66B960AD191DC3C5FD7DAF87BE48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8042C983BC51F10D93F3AD3C70413434 /* Pods-DKIflyMSC_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DKIflyMSC_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DKIflyMSC_Tests/Pods-DKIflyMSC_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F2BA3B329D4BD5AB0CB9AE37F1A96C7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A2A1B5BC681A1432C67BFE30453F344 /* DKIflyMSC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DKIflyMSC/DKIflyMSC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DKIflyMSC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DKIflyMSC/DKIflyMSC.modulemap";
-				PRODUCT_MODULE_NAME = DKIflyMSC;
-				PRODUCT_NAME = DKIflyMSC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A73625DEBD810B78234FA1958C191C8C /* Debug */,
-				85B95B1234E227C814CCC2C7902D0916 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3AC79E98B9D5AC47A7BFBFDF200DFDFC /* Build configuration list for PBXNativeTarget "Pods-DKIflyMSC_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F17E0F7279AB1062A1953669759C5FB /* Debug */,
-				DFAA61FD317659457EA60AB3A8E57BE7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69700A761009B02E166985DE4170CC4E /* Build configuration list for PBXNativeTarget "DKIflyMSC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BAD9AE5CD34C45A38F82306C2966D870 /* Debug */,
-				F2BA3B329D4BD5AB0CB9AE37F1A96C7C /* Release */,
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -765,8 +602,17 @@
 		CB945133F04381BA0365E1E542D713EA /* Build configuration list for PBXNativeTarget "Pods-DKIflyMSC_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0BC66B960AD191DC3C5FD7DAF87BE48 /* Debug */,
-				D09EB7411E92A6EE86D45E940F5A9699 /* Release */,
+				06657A1FC01A3C6A8F7934A36CC57930 /* Debug */,
+				47F1DF1B89B8DE5D31F7A3F8089CC67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB52859D01CE21D71CE0F9ADCE2EF244 /* Build configuration list for PBXNativeTarget "Pods-DKIflyMSC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2F4782E3E45816E37791DECD75AA01 /* Debug */,
+				BFB5BCF26EE150BD4E04CE2BF87D9C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

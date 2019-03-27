@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17CBF7E61EACF779B402F36D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17CBF7E61EACF779B402F36D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		57096207890103D5FDB6F6F7 /* Pods_DKIflyMSC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKIflyMSC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ED388C3ED7034435CCBBA1B /* DKIflyMSC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DKIflyMSC.podspec; path = ../DKIflyMSC.podspec; sourceTree = "<group>"; };
+		5ED388C3ED7034435CCBBA1B /* DKIflyMSC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DKIflyMSC.podspec; path = ../DKIflyMSC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* DKIflyMSC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKIflyMSC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D9EB3EC5E5B1C9591921A11 /* Pods-DKIflyMSC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKIflyMSC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKIflyMSC_Tests/Pods-DKIflyMSC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		870087F3FB79E0A00E1E5730 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		870087F3FB79E0A00E1E5730 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BD9245D11A0161B7C093426 /* Pods-DKIflyMSC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKIflyMSC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKIflyMSC_Tests/Pods-DKIflyMSC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9AD45DABF1973C0AFFE07410 /* Pods-DKIflyMSC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKIflyMSC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKIflyMSC_Example/Pods-DKIflyMSC_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				9FEB21874039A3162326FD09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -314,28 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9FEB21874039A3162326FD09 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DKIflyMSC_Example/Pods-DKIflyMSC_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DKIflyMSC/DKIflyMSC.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKIflyMSC.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKIflyMSC_Example/Pods-DKIflyMSC_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E2D5526A589A54C0CAB1359C /* [CP] Check Pods Manifest.lock */ = {

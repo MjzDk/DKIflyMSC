@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DKIflyMSC'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DKIflyMSC.'
+  s.summary          = '讯飞组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        讯飞语音组件
                        DESC
 
-  s.homepage         = 'https://github.com/MjzDK/DKIflyMSC'
+  s.homepage         = 'https://github.com/MjzDk/PrivateRepo.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MjzDK' => '15929996560@163.com' }
-  s.source           = { :git => 'https://github.com/MjzDK/DKIflyMSC.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MjzDk/PrivateRepo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'DKIflyMSC/Classes/**/*'
-  
+  # s.source_files = 'DKIflyMSC/Classes/**/*'
+  s.vendored_frameworks = ['DKIflyMSC/Classes/iflyMSC.framework']
+  s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephony','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
+  s.libraries = 'z','c++','icucore'
   # s.resource_bundles = {
   #   'DKIflyMSC' => ['DKIflyMSC/Assets/*.png']
   # }
