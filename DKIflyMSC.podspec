@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DKIflyMSC'
-  s.version          = '1.1.1'
+  s.version          = '1.1.3'
   s.summary          = '讯飞组件'
 
 # This description is used to generate tags and improve search results.
@@ -29,16 +29,16 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.vendored_frameworks = ['DKIflyMSC/Classes/iflyMSC.framework']
-  s.xcconfig            = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/DKIflyMSC/DKIflyMSC/Classes/**\"" }
-  s.requires_arc = false
+  s.vendored_frameworks = 'Source/iflyMSC.framework'
+  s.xcconfig            = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/iflyMSCKit/**\"" }
   s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephony','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
   s.libraries = 'z','c++','icucore'
-  s.source_files = 'DKIflyMSC/Classes/**/*.h'
+  s.source_files = 'Source/**/*.h'
+  s.requires_arc = false
   s.prepare_command     = <<-EOF
-  mkdir DKIflyMSC/Classes/iflyMSC.framework/Modules
-  touch DKIflyMSC/Classes/iflyMSC.framework/Modules/module.modulemap
-  cat <<-EOF > DKIflyMSC/Classes/iflyMSC.framework/Modules/module.modulemap
+  mkdir Source/iflyMSC.framework/Modules
+  touch Source/iflyMSC.framework/Modules/module.modulemap
+  cat <<-EOF > Source/iflyMSC.framework/Modules/module.modulemap
   framework module iflyMSC {
       header "IFlyMSC.h"
       header "IFlyAudioSession.h"
