@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DKIflyMSC'
-  s.version          = '0.0.1'
+  s.version          = '1.0.0'
   s.summary          = '讯飞组件'
 
 # This description is used to generate tags and improve search results.
