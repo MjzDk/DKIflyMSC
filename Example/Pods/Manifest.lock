@@ -1,5 +1,5 @@
 PODS:
-  - DKIflyMSC (1.0.0)
+  - DKIflyMSC (1.0.2)
 
 DEPENDENCIES:
   - DKIflyMSC (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DKIflyMSC: 2716fdc8c2be15865f9ff076c7aa8b3a1852e1bf
+  DKIflyMSC: d4a5a30ce511218f8edb96a8afa29e4e12b9463f
 
 PODFILE CHECKSUM: b3c3d803a6516d562ca8f0beae6f8ce000a8dd1f
 
