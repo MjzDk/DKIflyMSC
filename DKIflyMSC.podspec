@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
                         讯飞语音组件
                        DESC
 
-  s.homepage         = 'https://github.com/MjzDk/PrivateRepo.git'
+  s.homepage         = 'https://github.com/MjzDk/DKIflyMSC.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MjzDK' => '15929996560@163.com' }
-  s.source           = { :git => 'https://github.com/MjzDk/PrivateRepo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MjzDk/DKIflyMSC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
