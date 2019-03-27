@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DKIflyMSC"
-  s.version      = "1.1.6"
+  s.version      = "1.1.7"
   s.summary      = "讯飞语音听写"
   s.description  = <<-DESC
                     科大讯飞 语音听写 SDK
