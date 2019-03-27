@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DKIflyMSC_Example' do
+  pod 'DKIflyMSC', :path => '../'
+
+  target 'DKIflyMSC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
