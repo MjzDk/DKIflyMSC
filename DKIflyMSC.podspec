@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.vendored_frameworks = ['DKIflyMSC/Classes/iflyMSC.framework']
-  s.xcconfig            = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/DKIflyMSC/**\"" }
+  s.xcconfig            = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/DKIflyMSC/DKIflyMSC/Classes/**\"" }
   s.requires_arc = false
   s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephony','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
   s.libraries = 'z','c++','icucore'
